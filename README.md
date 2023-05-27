@@ -4,7 +4,12 @@ This project recreates the
 [mini-grep I/O project](https://doc.rust-lang.org/book/ch12-01-accepting-command-line-arguments.html)
 from the Rust Book in Zig.
 
-## Accepting Command Line Arguments
+```sh
+$ git clone https://github.com/tristanisham/minigrep-zig; cd minigrep-zig
+$ zig build run -- "query" ./path/to/file
+```
+
+<!-- ## Accepting Command Line Arguments
 
 To create a new project with Zig (<= 0.11.0-dev.3301+230ea411f) create and cd
 into a directory called `minigrep`. Next, run `zig init-exe` to generate a new
@@ -58,4 +63,4 @@ Before we start, let's go over some Zig basics.
 - Use `const` to declare a immutable variable
 - Use `defer` to execute a statement while exiting the current block. Multiple
   defers follow the _first in, last out_ policy.
-
+ -->
