@@ -1,15 +1,13 @@
 # Minigrep (in Zig)
 
-
 This project recreates the
-[mini-grep I/O ](https://doc.rust-lang.org/book/ch12-01-accepting-command-line-arguments.html)
-project from the Rust Book in Zig. 
+[mini-grep I/O](https://doc.rust-lang.org/book/ch12-01-accepting-command-line-arguments.html)
+project from the Rust Book in Zig.
 
 # Install
 
 ```sh
 $ git clone https://github.com/tristanisham/minigrep-zig; cd minigrep-zig
-
 ```
 
 Need to install Zig? Try [ZVM](https://github.com/tristanisham/zvm).
@@ -20,7 +18,7 @@ Need to install Zig? Try [ZVM](https://github.com/tristanisham/zvm).
 $ zig build run -- "query" ./path/to/file
 ```
 
-You can also find your compiled binary in `zig-out`. 
+You can also find your compiled binary in `zig-out`.
 
 ## Build for Release
 
