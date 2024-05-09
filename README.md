@@ -20,6 +20,14 @@ Need to install Zig? Try [ZVM](https://github.com/tristanisham/zvm).
 $ zig build run -- "query" ./path/to/file
 ```
 
+You can also find your compiled binary in `zig-out`. 
+
+## Build for Release
+
+```sh
+zig build -Doptimize=ReleaseFast
+```
+
 <!-- ## Accepting Command Line Arguments
 
 To create a new project with Zig (<= 0.11.0-dev.3301+230ea411f) create and cd
