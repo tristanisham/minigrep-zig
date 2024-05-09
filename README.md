@@ -2,8 +2,8 @@
 
 
 This project recreates the
-[mini-grep I/O project](https://doc.rust-lang.org/book/ch12-01-accepting-command-line-arguments.html)
-from the Rust Book in Zig. 
+[mini-grep I/O ](https://doc.rust-lang.org/book/ch12-01-accepting-command-line-arguments.html)
+project from the Rust Book in Zig. 
 
 # Install
 
