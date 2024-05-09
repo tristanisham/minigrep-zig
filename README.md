@@ -1,11 +1,22 @@
 # Minigrep (in Zig)
 
+
 This project recreates the
 [mini-grep I/O project](https://doc.rust-lang.org/book/ch12-01-accepting-command-line-arguments.html)
-from the Rust Book in Zig.
+from the Rust Book in Zig. 
+
+# Install
 
 ```sh
 $ git clone https://github.com/tristanisham/minigrep-zig; cd minigrep-zig
+
+```
+
+Need to install Zig? Try [ZVM](https://github.com/tristanisham/zvm).
+
+# Run the program
+
+```sh
 $ zig build run -- "query" ./path/to/file
 ```
 
